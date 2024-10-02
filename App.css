@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.task-list {
+  padding: 20px;
+}
+
+.task-input {
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  padding: 5px;
+  width: 200px;
+}
+
+.task-input button {
+  padding: 5px 10px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-item button {
+  margin-left: auto;
+  padding: 5px 10px;
+}
+
+.export-import {
+  margin-top: 20px;
+}
